@@ -11,7 +11,7 @@ class Box extends StatelessWidget {
       padding: const EdgeInsets.all(16.0),
       child: Card(
         color: Theme.of(context).colorScheme.secondaryContainer,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
         elevation: 10,
         child: child,
       ),
